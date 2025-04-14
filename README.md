@@ -1,34 +1,135 @@
-NWY Name Changer |  Fully Customizable Name Change Script – FiveM ESX Framework
+# ✨ NOWAY STORE | Premium ESX Name Change System
 
-> :brain: Looking for a complete and immersive identity system for your RP server?
-> In this showcase, we present the NOWAY STORE Name Change Script — a premium FiveM resource designed for ESX Legacy, allowing players to change their in-game names via a sleek, immersive NPC interaction system.
+> 🔄 Allow players to legally change their RP identity with immersive interactions, clean UI, and full ESX compatibility — powered by **NOWAY STORE**.
 
-> :person_standing: Realistic NPC Interaction
-Walk up to a fully configurable NPC to begin the name change process — no menus out of nowhere, just smooth in-world immersion.
+![1586403-31efa2f1608d1d6f1044e65714f17898d6c81486](https://github.com/user-attachments/assets/3bf57895-de93-4fd8-b648-34b5145595f1)
 
-> :pen_fountain: Animated UI Input
-Players enter a first and last name through a clean, modern interface with smooth animations and sound feedback.
 
-> :no_entry_sign: Smart Name Validation
-Prevent troll or offensive names with a blacklist system and regex validation. Stay clean, stay professional.
+---
 
-> :money_with_wings: Supports Cash or Bank Payments
-Players pay through cash or bank, fully configurable from the config. You decide the price — we handle the rest.
+## 🚀 Overview
 
-> :white_check_mark: Name Confirmation Screen
-After payment, a confirmation screen lets players know the new name has been successfully applied.
+The **Name Change System** is a fully-featured and customizable script for **FiveM ESX servers** that allows players to **change their first and last name** via an immersive and professional NPC-based interface.
 
-> :repeat: Relog Option After Name Change
-The player is prompted to relog to apply their new identity instantly. If they confirm, they are safely logged out.
+Whether you're running a serious RP server or a fun casual community, this script adds realism and administrative flexibility to your roleplay world.
 
-> :hourglass_flowing_sand: Cooldown System
-Once used, the name change is locked for 30 days by default. You can customize this duration anytime.
+---
 
-> :shield: Admin Bypass
-Staff and admins with permission can bypass cooldowns and validation, perfect for testing or manual changes.
+![script](https://github.com/user-attachments/assets/a9e31d3c-fcea-44c9-9932-b0ad5c09645c)
 
-> :incoming_envelope: Full Discord Logging
-Every name change is logged to a dedicated Discord webhook with player name, new name, payment method, and time.
+## 💡 Key Features
 
-> :control_knobs: Highly Configurable
-NPC locations, cooldowns, payment types, blip toggle, subtitle display, relog messages — all controlled from a single config.lua.
+- 🧍 **NPC Interaction** – Easily integrated with target systems (old/new `ox_target`)
+- 🖋️ **Modern Name Input UI** – Animated, responsive, and user-friendly
+- 🧼 **Blacklist & Validation** – Prevent abuse or inappropriate names
+- 💸 **Bank or Cash Payment** – Fully configurable pricing system
+- ⏳ **Cooldown Timer** – One change per X days (default: 30)
+- 🛡️ **Admin Bypass** – Staff can bypass limits and costs
+- 🔁 **Relog Popup** – Player gets prompt to rejoin and update RP name
+- 📨 **Discord Webhook Logging** – Full audit trail of name changes
+- 📍 **Map Blip & Configurable Location** – Place your NPC anywhere you want
+
+---
+
+## 📦 Compatibility
+
+- ✅ **ESX Legacy** (v1-final & newer)
+- ✅ `esx_multicharacter` (auto-compatible)
+- ✅ `ox_target` (old & new versions)
+- ✅ ✅ Framework-flexible with small adjustments
+
+---
+
+## 🛠️ Installation
+
+1. Drop the script in your `resources` folder.
+2. Add to your `server.cfg`:
+   ```cfg
+   ensure noway_namechange
+## ⚙️ Configure `config.lua` For:
+
+- 🎯 **Target/NPC Support**  
+  Choose between `ox_target`, classic targeting, or direct keypress interaction.
+
+- ⏳ **Cooldown Settings**  
+  Set the number of days players must wait before changing their name again.  
+  `Default: 30 Days`
+
+- 💳 **Payment Method & Amount**  
+  Accept either **cash** or **bank**. Easily set the price in the config.
+
+- 🛡️ **Admin Group Bypass**  
+  Define admin groups (e.g., `admin`, `superadmin`) to bypass cooldowns and payments.
+
+- 📨 **Discord Webhook Logging**  
+  Automatically send logs to your Discord server with name change history and player data.
+
+- 🌍 **UI Messages & Translations**  
+  Customize all prompts, labels, and buttons to support multiple languages or server branding.
+
+---
+
+## 🎬 Showcase
+
+✨ **Watch the cinematic showcase video on YouTube**  
+Featuring:
+- 🎥 Flying camera intro
+- 🖤 Black bar cinematic effects
+- 🗣️ Male voiceover narration
+- 📝 Subtitles for clarity
+- 💳 Animated payment UI
+- 🔁 Relog confirmation popup
+
+🖼️ **Thumbnail Included**  
+📽️ Full script preview in action
+
+---
+
+## 📸 In-Game Preview
+
+![In-Game Preview](https://cdn.discordapp.com/attachments/1017503986141630474/1360310783879155883/ChatGPT_Image_Apr_6_2025_06_17_24_PM.png)
+
+---
+
+## 💬 Support & Community
+
+Need assistance or custom support?
+
+Join the official NOWAY STORE Discord:
+
+👉 [https://discord.gg/6cYaYKbU5m](https://discord.gg/6cYaYKbU5m)
+
+Get access to:
+- 🛠 Setup help
+- ✍️ Custom edits
+- 🐞 Bug reporting
+- 🚀 New releases & announcements
+
+---
+
+## 🛍️ Purchase
+
+🎯 This is a **premium FiveM script** available via **NOWAY STORE** on Tebex.  
+For licensing, partnerships, or Tebex invites, contact us through Discord.
+
+---
+
+## 📃 License
+
+This resource is **not open-source** and is protected under NOWAY STORE licensing terms.  
+🔒 **Do not redistribute or resell.**  
+✔️ Custom versions or resale rights can be discussed directly with the team.
+
+---
+
+## 🔗 Credits
+
+- 💼 Developed by **NOWAY STORE**
+- 🎙️ Voiceover & Cinematic Video by request
+- 🛠️ Built using FiveM ESX + Custom Scripting
+- 🎬 Showcase & branding elements created in-house
+
+---
+
+**© 2025 NOWAY STORE**  
+*Built for immersive RP experiences.*
